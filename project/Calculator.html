@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WCypher Calculator</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background: linear-gradient(135deg, #1f1c2c, #928dab);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      #calculator {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        padding: 30px;
+        max-width: 400px;
+        width: 100%;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      #display {
+        width: 100%;
+        padding: 20px;
+        font-size: 2.5rem;
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        text-align: right;
+        backdrop-filter: blur(10px);
+      }
+
+      #keys {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+      }
+
+      button {
+        height: 70px;
+        border: none;
+        border-radius: 35px;
+        font-size: 1.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+        transition: all 0.2s ease;
+      }
+
+      button:hover {
+        background: rgba(255, 255, 255, 0.25);
+        transform: translateY(-2px);
+      }
+
+      button:active {
+        transform: scale(0.95);
+        background: rgba(255, 255, 255, 0.15);
+      }
+
+      button.operator {
+        color: #000000;
+        background-color: #4cff97;
+      }
+
+      button.equal {
+        background: #ff4d4d;
+        color: white;
+      }
+
+      button.clear {
+        background: #4cff97;
+        color: rgb(0, 0, 0);
+        grid-column: span 4;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="display" placeholder="0" readonly />
+      <div id="keys">
+        <button class="operator" onclick="appendToDisplay('+')">+</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button class="operator" onclick="appendToDisplay('-')">-</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button class="operator" onclick="appendToDisplay('*')">*</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button class="operator" onclick="appendToDisplay('/')">/</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button class="equal" onclick="clearDisplay()">C</button>
+        <button class="clear" onclick="calculate()">=</button>
+      </div>
+    </div>
+
+    <script>
+      const display = document.getElementById("display");
+
+      function appendToDisplay(input) {
+        if (input === "." && !canAddDecimal()) return;
+        display.value += input;
+      }
+
+      function canAddDecimal() {
+        const parts = display.value.split(/[\+\-\*\/]/);
+        const lastPart = parts[parts.length - 1];
+        return !lastPart.includes(".");
+      }
+
+      function clearDisplay() {
+        display.value = "";
+      }
+
+      function calculate() {
+        try {
+          const result = new Function("return " + display.value)();
+          display.value = result;
+        } catch {
+          display.value = "Error";
+        }
+      }
+
+      document.addEventListener("keydown", (e) => {
+        const key = e.key;
+        if ("0123456789+-*/.".includes(key)) {
+          appendToDisplay(key);
+        } else if (key === "Enter") {
+          calculate();
+        } else if (key === "Backspace") {
+          display.value = display.value.slice(0, -1);
+        } else if (key === "Escape") {
+          clearDisplay();
+        }
+      });
+    </script>
+  </body>
+</html>
