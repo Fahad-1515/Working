@@ -2,16 +2,126 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | WCypher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="shortcut icon" href="https://clipart-library.com/images/yTkrk55yc.png" type="image">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">  
+</head>
   <body>
-    <h1 id="h1">Enter Radius of circle</h1>
-    <label>Radius</label>
-    <input id="mytext" type="text" /><br /><br />
-    <button id="mysubmit">Submit</button>
-    <h3 id="h3"></h3>
+    <header>
+      <nav id="navbar" class="dark">
+        <div class="nav-container">
+          <div class="logo">WCypher</div>
+
+          <div class="nav-links" id="nav-links">
+            <a href="./index.html">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div style="display: flex; align-items: center">
+            <div
+              class="theme-toggle"
+              id="theme-toggle"
+              aria-label="Toggle dark/light theme"
+              role="button"
+              tabindex="0"
+              title="Toggle dark/light theme"
+            >
+              🌙
+            </div>
+            <div
+              class="hamburger"
+              id="hamburger"
+              aria-label="Toggle navigation"
+              role="button"
+              tabindex="0"
+            >
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+    <section class="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto px-6 py-16">
+      <div class="md:w-1/2">
+        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
+          Hi, I'm <span class="text-blue-500">FAHAD</span><br />
+          Full Stack Web Developer
+        </h2>
+        <p class="mt-4 text-lg">
+          I build fast, modern, scalable web applications using the latest tech.
+        </p>
+        <div class="mt-6 flex gap-4">
+          <a href="#projects" class="bg-blue-500 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-600">Projects</a>
+          <a href="#contact" class="border border-blue-500 text-blue-500 px-6 py-2 rounded-lg hover:bg-blue-500 hover:text-white">Contact</a>
+        </div>
+      </div>
+      <div class="md:w-1/2 mb-12 md:mb-0">
+        <img src="hero-img.svg" alt="Hero Illustration" class="w-full animate-fade-in" />
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="bg-gray-100 dark:bg-gray-800 py-16 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">About Me</h3>
+        <p class="text-lg">
+          I'm a passionate full stack developer with experience in React, Node.js, Express, MongoDB, and more. I love solving real-world problems with clean, scalable code.
+        </p>
+      </div>
+    </section>
+</main>
+    <footer>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+        <form class="space-y-4">
+          <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-gray-100 dark:bg-gray-700" />
+          <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-100 dark:bg-gray-700" />
+          <textarea placeholder="Your Message" rows="5" class="w-full p-3 rounded bg-gray-100 dark:bg-gray-700"></textarea>
+          <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">Send Message</button>
+        </form>
+      
+      </div>
+    </section>
+  </footer>
+
+      <div class="social-section">
+        <div class="max-w-3xl mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6" >Connect With Me</h3>
+      </div>
+        <div class="category">
+          <div class="icons">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" title="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>  
+            <a href="https://telegram/yourchannel" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="https://pinterest.com/yourprofile" target="_blank" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="https://reddit.com/user/yourprofile" target="_blank" title="Reddit"><i class="fab fa-reddit"></i></a>
+            <a href="https://your.substack.com" target="_blank" title="Substack"><i class="fas fa-envelope-open-text"></i></a>
+            
+            <a href="https://medium.com/@yourprofile" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+            <a href="https://facebook.com/yourprofile" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://discord.gg/yourserver" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+            <a href="https://kick.com/" target="_blank" title="KICK"><img src="https://cdn-1.webcatalog.io/catalog/kick-com/kick-com-icon-filled-256.png?v=1745800556616" height="50px" width="50px" ></a>
+            <a href="https://twitch.tv/yourchannel" target="_blank" title="Twitch"><i class="fab fa-twitch"></i></a>
+            <a href="https://youtube.com/@yourchannel" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <br></br>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
