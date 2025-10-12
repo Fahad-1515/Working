@@ -14,7 +14,7 @@
 ## FullStack Developer Projects
 ### A Modern Movie🍿🎬 discovery website built with React, Vite, and Tailwind CSS.
    
-     [click here](www.google.com)
+     www.google.com
 
 
 ## Data Analytics Projects
