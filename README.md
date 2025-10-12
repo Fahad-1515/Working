@@ -4,7 +4,7 @@
 
 ✨ I turn complex problems into clean, intuitive user experiences.
 
-📬 Reach out for collaboration: [portfolio.link](https://portfolio.link)
+📬 Reach out for collaboration: fahad630321@gmail.com
 
 🔧 **Solving problems with code.** | **Python** • **AWS** • **Data Engineering**
 
