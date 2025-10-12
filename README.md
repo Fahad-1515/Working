@@ -14,22 +14,29 @@
 ## FullStack Developer Projects
 
 ### A Modern Movie🍿🎬 discovery website built with React, Vite, and Tailwind CSS.
+
  
     https://github.com/Fahad-1515/MovieDB
+
     
 ### ATS-Resume Matcher
 
+
     https://github.com/Fahad-1515/ATS-Resume-Matcher
+
 
 ## Data Analytics Projects
 
 ### Uber-Datasets-Analytics 2024
 
+
     https://github.com/Fahad-1515/Uber-Datasets-Analytics
+
     
 ## DevOps
 
 ### Telegram Shorts Bot
+
 
     https://github.com/Fahad-1515/telegram-ytshorts-bot
 
