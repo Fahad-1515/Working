@@ -13,23 +13,31 @@
 📚 Check out my projects below. Ideas and collaborations are welcome.
 ## FullStack Developer Projects
 
-### A Modern Movie🍿🎬 discovery website built with React, Vite, and Tailwind CSS.
+### 1.A Modern Movie🍿🎬 discovery website built with React, Vite, and Tailwind CSS.
 
-  https://github.com/Fahad-1515/MovieDB
+    https://github.com/Fahad-1515/MovieDB
 
-### ATS-Resume Matcher
+### 2.ATS-Resume Matcher
 
-  https://github.com/Fahad-1515/ATS-Resume-Matcher
+    https://github.com/Fahad-1515/ATS-Resume-Matcher
 
+### 3.Weatherapp
+
+    https://github.com/Fahad-1515/Weatherapp
+    
 ## Data Analytics Projects
 
 ### Uber-Datasets-Analytics 2024
 
-  https://github.com/Fahad-1515/Uber-Datasets-Analytics
+    https://github.com/Fahad-1515/Uber-Datasets-Analytics
     
 ## DevOps
 
 ### Telegram Videos Shorts Bot
 
-  https://github.com/Fahad-1515/telegram-ytshorts-bot
+    https://github.com/Fahad-1515/telegram-ytshorts-bot
+
+### System-Performance-Monitor
+
+    https://github.com/Fahad-1515/System-Performance-Monitor
 
