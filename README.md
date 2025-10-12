@@ -29,7 +29,7 @@
     
 ## DevOps
 
-### Telegram Shorts Videos Bot
+### Telegram Videos Shorts Bot
 
   https://github.com/Fahad-1515/telegram-ytshorts-bot
 
