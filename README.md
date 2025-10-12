@@ -13,7 +13,7 @@
 📚 Check out my projects below. Ideas and collaborations are welcome.
 ## FullStack Developer Projects
 ### A Modern Movie🍿🎬 discovery website built with React, Vite, and Tailwind CSS.
-    https://github.com/Fahad-1515/MovieDB
+    ([https://github.com/Fahad-1515/MovieDB])
 
 
 ## Data Analytics Projects
