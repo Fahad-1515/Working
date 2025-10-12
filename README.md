@@ -27,17 +27,17 @@ https://github.com/Fahad-1515/Weatherapp
     
 ## Data Analytics Projects
 
-### Uber-Datasets-Analytics 2024
+### 1.Uber-Datasets-Analytics 2024
 
 https://github.com/Fahad-1515/Uber-Datasets-Analytics
     
 ## DevOps
 
-### Telegram Videos Shorts Bot
+### 1.Telegram Videos Shorts Bot
 
 https://github.com/Fahad-1515/telegram-ytshorts-bot
 
-### System-Performance-Monitor
+### 2.System-Performance-Monitor
 
 https://github.com/Fahad-1515/System-Performance-Monitor
 
