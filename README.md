@@ -15,10 +15,6 @@
 
 ### A Modern Movie🍿🎬 discovery website built with React, Vite, and Tailwind CSS.
 
-   
-     https://github.com/Fahad-1515/MovieDB
-
-
      
      [Click here](https://example.com)
 
