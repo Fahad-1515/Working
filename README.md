@@ -30,6 +30,10 @@ https://github.com/Fahad-1515/Weatherapp
 ### 1.Uber-Datasets-Analytics 2024
 
 https://github.com/Fahad-1515/Uber-Datasets-Analytics
+
+### 2.E-Commerce Fast Delivery PowerBI DashBoard
+
+    https://github.com/Fahad-1515/E-Commerce-PowerBI-Dashboard
     
 ## DevOps
 
@@ -40,4 +44,5 @@ https://github.com/Fahad-1515/telegram-ytshorts-bot
 ### 2.System-Performance-Monitor
 
 https://github.com/Fahad-1515/System-Performance-Monitor
+
 
