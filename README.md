@@ -33,7 +33,7 @@ https://github.com/Fahad-1515/Uber-Datasets-Analytics
 
 ### 2.E-Commerce Fast Delivery PowerBI DashBoard
 
-    https://github.com/Fahad-1515/E-Commerce-PowerBI-Dashboard
+https://github.com/Fahad-1515/E-Commerce-PowerBI-Dashboard
     
 ## DevOps
 
