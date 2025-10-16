@@ -6,9 +6,9 @@
 
 📬 Reach out for collaboration: fahad630321@gmail.com
 
-🔧 **Solving problems with code.** | **Python** • **AWS** • **Data Engineering**
+🔧 **Solving problems with code.** 
 
-🌱 Currently growing: **LLM Ops & AI Pipelines**
+🌱 Currently growing: **Data Analytics**
 
 📚 Check out my projects below. Ideas and collaborations are welcome.
 ## FullStack Developer Projects
