@@ -17,6 +17,10 @@
 
 https://github.com/Fahad-1515/MovieDB
 
+### 2.Task Management dashboard
+
+https://github.com/Fahad-1515/Task-Management-Dashboard
+
 ### 2.ATS-Resume Matcher
 
 https://github.com/Fahad-1515/ATS-Resume-Matcher
