@@ -21,11 +21,11 @@ https://github.com/Fahad-1515/MovieDB
 
 https://github.com/Fahad-1515/Task-Management-Dashboard
 
-### 2.ATS-Resume Matcher
+### 3.ATS-Resume Matcher
 
 https://github.com/Fahad-1515/ATS-Resume-Matcher
 
-### 3.Weatherapp
+### 4.Weatherapp
 
 https://github.com/Fahad-1515/Weatherapp
     
